@@ -1,0 +1,49 @@
+**Summary:**
+**Data Analysis Key Findings**
+**Missing Data:** 
+i found no missing data in it.
+
+**Data Type Issues:**
+
+data types are correct
+
+**Relationships between Variables:** 
+🔴 Strong Positive Correlations (Close to +1)
+Math score vs. Reading score: 0.82
+
+Math score vs. Writing score: 0.80
+
+Reading score vs. Writing score: 0.95 (Strongest positive correlation in the heatmap.
+
+These indicate that students who score well in one subject tend to score well in the others.
+
+
+🔵 Strong Negative Correlations (Close to -1)
+Lunch (free/reduced) vs. Scores:
+
+Math score: -0.35
+
+Reading score: -0.32
+
+Writing score: -0.30
+(Students with free/reduced lunch tend to score lower.)
+
+Test preparation course (none) vs. Scores:
+
+Math: -0.18
+
+Reading: -0.24
+
+Writing: -0.31
+
+✅ Summary of Most Influential Factors:
+Reading ↔ Writing: Most strongly correlated (0.95)
+
+Lunch type and Test preparation course significantly impact performance.
+
+Gender and Race/Ethnicity have minor influence on scores.
+
+**Data Cleaning Challenges:** 
+There is no nan or missing valyes or non numeric in numeric data and vice versa. Although i find some outliers and cap it accordingly.
+
+**At the end Model is trained well and R2 score is good**
